@@ -34,10 +34,8 @@
     // トラボ誤爆防止: タイピング後300ms経過しないとAMLが発動しない
 
     // --- ここから追加 ---
-    // AMLが有効になった時に F20 を押す
-    track-on-key-code = <F20>;
-    // AMLが無効になった時に F20 を離す
-    track-off-key-code = <F20>;
+    track-on-key = <&kp F20>;
+    track-off-key = <&kp F20>;
 };
 
 
