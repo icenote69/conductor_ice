@@ -35,8 +35,8 @@
     // トラボ誤爆防止: タイピング後300ms経過しないとAMLが発動しない
 
     // --- ここから追加 ---
-    track-on-key-code = <F20>;
-    track-off-key-code = <F20>;
+    track-on-key = <&kp F20>;
+    track-off-key = <&kp F20>;
 };
 
 
